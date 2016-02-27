@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--Makes the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+	<link rel="stylesheet" type="text/css" href="A2.css">
+	<script src="A2game.js"></script>
+	
+	<head>
+		<title> CSC309 game</title>
+	</head>
+	<body>
+		<center>
+		<div id="menu">
+		<h2> Tap Tap Bug!</h2>
+		<div id="hiscore"> </div>
+		<input type="radio" name="level" id="level-one" value="one" onclick="click_level_1()">Level 1<br />
+		<input type="radio" name="level" id="level-two" value="two" onclick="click_level_2()">Level 2<br />
+		<button onclick="removeMenu()">CRUSH THEM BUGS</button>
+		</div>
+		</center>
+		<canvas id="gameCanvas" width="0" height="0">Your browser does not support canvas.</canvas>
+	</body>
+</html>
